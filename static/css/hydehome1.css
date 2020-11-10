@@ -1,0 +1,175 @@
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+body  {
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+ a {
+   text-decoration: none;
+ }
+
+/* Header/Logo Title */
+.header {
+  top: 0;
+  padding: 1px;
+  text-align: center;
+  background: #333333;
+}
+
+
+ h1 {
+   font-size: 50px;
+   color: #f2f2f2;
+   font-weight: 100;
+ }
+
+ h2 {
+   font-size: 30px;
+   color: #3E3E3E;
+ }
+
+ section {
+   display; block;
+   margin: 45px 150px 0 150px;
+
+ }
+
+
+
+ a:hover {
+   color: #999999;
+   transform: scale(0.92);
+   transition-duration: 0.5s;
+ }
+
+ .previous {
+   background-color: #f2f2f2;
+   color: #3E3E3E;
+   font-size: 160px;
+   position: absolute;
+   left: 30px;
+   top: 45%
+ }
+
+ .next {
+   background-color: #f2f2f2;
+   color: #3E3E3E;
+   font-size: 160px;
+   position: absolute;
+   right: 30px;
+   top: 45%
+ }
+
+.job {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  font-size: 20px;
+}
+
+{
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+.column1 {
+  padding-top: 30px;
+  float: left;
+  align: center;
+}
+
+.column2 {
+  padding-top: 30px;
+  float: right;
+  align-items: center;
+
+}
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.logoff {
+  position:absolute;
+  margin: 45px 0 0 20px;
+  border: none;
+  outline: 0;
+  display: inline;
+  padding: 12px 30px;
+  color: #3E3E3E;
+  background-color: #80dfff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+  font-weight: bold;
+}
+
+
+.newjob {
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  border: none;
+  outline: 0;
+  display: inline;
+  padding: 12px 30px;
+  color: #3E3E3E;
+  background-color: #80dfff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline;
+  width: 160px;
+  height:110px;
+  color: #3E3E3E;
+  background-color: #80dfff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  margin:7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.shiftbtn {
+  border: none;
+  outline: 0;
+  display: inline;
+  width: 300px;
+  height:110px;
+  color: #3E3E3E;
+  background-color: #80dfff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  margin:7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+button:hover {
+  transform: scale(0.92);
+  transition-duration: 0.5s;
+  background-color: #4dd2ff;
+  color: #f2f2f2;
+}
