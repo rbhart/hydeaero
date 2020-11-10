@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background: #0099cc;
+    color: #fff;
+}
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+}
+a {
+     text-decoration: none;
+}
+.header {
+    top: 0;
+    padding: 1px;
+    text-align: center;
+    background: #333333;
+  } 
+h1 {
+     font-size: 50px;
+     color: #f2f2f2;
+     font-weight: 100;
+}
+h2 {
+     font-size: 30px;
+     color: #3E3E3E;
+}
+.job {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.back {
+    position:absolute;
+    margin: 45px 0 0 20px;
+    border: none;
+    outline: 0;
+    display: inline;
+    padding: 12px 30px;
+    color: #3E3E3E;
+    background-color: #80dfff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+}
+button:active {
+    transform: scale(0.95);
+    color: #f2f2f2;
+} 
+.wrapper{
+    place-items: center;
+    text-align: center;
+    width: 100%;
+}
+.wrapper .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #383838;
+    user-select: none;
+}
+.wrapper form{
+    padding: 0 30px 50px 30px;
+}
+.wrapper form .field{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+textarea:focus::placeholder{
+    color: transparent;
+}
+.wrapper form .field textarea{
+    height: 30vh;
+    width: 40%;
+    outline: none;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-bottom: 1%; 
+    box-sizing: border-box;
+}
+select {
+    width: 40%;
+    height: 40px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 1%;
+    margin: 1%;
+}
+.submit {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #3E3E3E;
+    background-color: #80dfff;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 40%;
+    padding: 1%;
+    user-select: none;
+}
+@media (max-width: 55rem) {
+    select {
+        width: 100%;
+    }
+    .wrapper form .field textarea {
+        width: 100%;
+    }
+    .submit {
+        width: 100%;
+    }
+}
